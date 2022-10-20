@@ -1,0 +1,70 @@
+* {
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.name, hr {
+    margin-top: 10px;
+}
+h1, h2, h3 {
+    text-align: center;
+}
+.ret {
+    background-color: blueviolet;
+    padding-bottom: 10%;
+    padding-top: 1%;
+    
+}
+ol {
+    counter-reset: item;
+
+}
+li{
+    display: block;
+}
+li::before{
+    content: counter(item, ".") "";
+    counter-increment: item;
+}
+.ret-men {
+    margin-top: 20px;
+}
+.ret-son {
+    margin-top: 110px;
+}
+.ret-bro {
+    margin-top: 80px;
+}
+.form-1 {
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 30px;
+}
+.form-2 {
+    margin-top: 20px;
+}
+.form-submit-button {
+    border-radius: 8px;
+    background: #0066A2;
+    color: white;
+    border-color: #0066A2;
+    height: 50px;
+    width: 100px;
+    text-shadow: none;
+    cursor: pointer;
+}
+.top {
+    background-color: #0066A2;
+    padding-bottom: 46%;
+}
+.tor {
+    color: white;
+    padding-top: 20px;
+}
+.tore {
+    padding-top: 20px;
+}
+
+
+
+
+
